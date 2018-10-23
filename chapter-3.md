@@ -24,7 +24,7 @@
 	- Initial architecture diagram involves more dimensions:
 		- Software used
 		- Software version updates
-		- Software changes based on change
+		- Software changes based on new tools 
 	- Evolution of software should be a first class citizen
 
 #### Testable
@@ -90,7 +90,6 @@
 - Developers may want to deploy more aggressively
 - Concerning to database admins as fast changes to code could lessen stability
 - Compromises must occur when considering incremental changes
-
 
 #### Case Study: Adding fitness functions to
 #### PenultimateWidgets' Invoicing Service 
