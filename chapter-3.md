@@ -71,7 +71,7 @@
 	- e.g. Metadata is being handled properly
 - Holistic + Continual
 	- Test multiple parts of the system all the time
-	- An agent that tat constantly assesses architecture and operations
+	- An agent that constantly assesses architecture and operations
 	- Chaos Monkey from Netflix is an example
 	- Simian Army from Netflix is another
 	- Take note that these agents don't run on a schedule --it runs continually 
