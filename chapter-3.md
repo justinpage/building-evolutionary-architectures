@@ -1,9 +1,9 @@
-### Chapter 3 - Engineering Incremental Change 
+### Chapter 3 - Engineering Incremental Change
 
 > An evolutionary architecture supports guided,	*incremental* change across
 > multiple dimensions
 
-- Microservices architecture that embraces share nothing: isolated 
+- Microservices architecture that embraces share nothing: isolated
 	- Some services use a rating service
 	- New rating service is deployed
 	- Some services update their calls to use the new rating service
@@ -17,14 +17,14 @@
 	- Migration to new service
 	- Automatic mechanism for removing unused original service
 
-#### Building Blocks 
-- Nothing in software is static. 
+#### Building Blocks
+- Nothing in software is static.
 - We live in a 4-D world
 	- Modern architecture must be deployable and changeable
 	- Initial architecture diagram involves more dimensions:
 		- Software used
 		- Software version updates
-		- Software changes based on new tools 
+		- Software changes based on new tools
 	- Evolution of software should be a first class citizen
 
 #### Testable
@@ -45,7 +45,7 @@
 	- The need for separation of tasks
 	- Feedback necessary for each step
 - May include continuous deployment
-	- Could fan out to a integration production and staging environment 
+	- Could fan out to a integration production and staging environment
 	- Successful deploy to both guarantee:
 		- Does not affect current state of production
 		- Does not affect future state environment
@@ -59,12 +59,12 @@
 	- Having a list of fitness functions allows developers to easily design --
 		- Deployment pipelines
 
-#### Combining 
+#### Combining
 - Atomic + Triggered
 	- Unit and functional tests ran as part of software development
 - Holistic + Triggered
 	- Integration tests that are included in a deployment pipeline
-- Atomic + Continual 
+- Atomic + Continual
 	- Test one aspect of the architecture but run as part of the overall system
 	- e.g. testing REST endpoints support proper verbs
 	- e.g. error handling is behaving correctly
@@ -74,14 +74,14 @@
 	- An agent that constantly assesses architecture and operations
 	- Chaos Monkey from Netflix is an example
 	- Simian Army from Netflix is another
-	- Take note that these agents don't run on a schedule --it runs continually 
+	- Take note that these agents don't run on a schedule --it runs continually
 	- This forces developers to build systems that withstand problems
-	- Validates solutions continuously 
+	- Validates solutions continuously
 	- Runs against multiple parts of the architecture (resiliency, scalability)
 		- Tests if these characteristics are maintained
 
 #### Case Study: Architectural Restructuring while Deploying 60 Times/Day
-- Github: https://githubengineering.com/move-fast/ 
+- Github: https://githubengineering.com/move-fast/
 - Example that allows developers to refactor a critical part of their --
 	- infrastructure with confidence
 - Ran a new version alongside the existing and then testing consistency
@@ -92,7 +92,7 @@
 - Compromises must occur when considering incremental changes
 
 #### Case Study: Adding fitness functions to
-#### PenultimateWidgets' Invoicing Service 
+#### PenultimateWidgets' Invoicing Service
 - See book for details
 
 #### Hypothesis and Data-Driven Development
@@ -109,4 +109,4 @@
 - A migration to a new system may be influenced by what features are most used
 	- Most used features are obviously migrated
 	- Those that are not may be left out thus sun-setting
-- Use data analytics to determine what features to port instead of all 
+- Use data analytics to determine what features to port instead of all
