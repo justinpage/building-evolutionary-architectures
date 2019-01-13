@@ -1,4 +1,4 @@
-### Chapter 3 - Architectural Coupling
+### Chapter 4 - Architectural Coupling
 
 > How the pieces of the architecture connect and rely on one another
 
