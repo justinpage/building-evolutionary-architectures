@@ -46,6 +46,7 @@ can be automated?
 
 Avoid commercial off-the-shelf and other packaged enterprise software when
 possible. Incremental change, appropriate coupling, and developing fitness
+
 ### Migrating Architectures
 
 Make sure you think about other dimensions affected by evolution. Not just
@@ -84,7 +85,7 @@ Use immutable infrastructure. Building software systems that evolve means
 controlling as many unknown factors as possible. Developers strive to replace
 variables in code with constants to reduce vectors of change. DevOps introduced
 this concept to operations, making it more declarative. Infrastructure as code
-comes to mine.
+comes to mind.
 
 Building immutable development environments is one example of applying
 changeable things to constants. Capturing the development environment as

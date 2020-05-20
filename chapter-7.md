@@ -4,7 +4,7 @@
 	- Initially good but turns into a mistake
 	- Better alternatives exist for most antipatterns
 - Pitfall
-	- Superficially good but immediately reveals itself to be a path
+	- Superficially good but immediately reveals itself to be a bad path
 
 ### Technical Architecture
 
@@ -57,8 +57,8 @@ IBM's San Francisco Project.
 
 #### Antipattern: Code Reuse Abuse
 
-The more effort developers put into making code reusable the harder it is to
-use. Making code reusable involves adding additional options and decision points
+The more effort developers put into making code reusable the harder it is to use
+it. Making code reusable involves adding additional options and decision points
 to accommodate the different users. More reusability may harm basic usability.
 
 > The more reusable code is, the less usable it is

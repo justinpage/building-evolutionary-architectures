@@ -55,7 +55,6 @@
 	- A shifting definition based on extra context
 	- Circumstances have an influence on what may be permitted
 	- Range of acceptability based on context
-
 - Automated Versus Manual
 	- Some fitness functions can, and should, be automated
 	- Placed in continuous delivery

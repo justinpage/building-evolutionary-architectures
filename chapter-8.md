@@ -111,9 +111,9 @@ business.
 #### Low-Hanging Fruit
 
 Find architecture that already is largely decoupled and not on a critical path
-with any dependencies. Improving the modularity and deceasing coupling can allow
-teams to demonstrate the benefits of evolutionary architecture through fitness
-functions and incremental change.
+with any dependencies. Improving the modularity and decreasing coupling can
+allow teams to demonstrate the benefits of evolutionary architecture through
+fitness functions and incremental change.
 
 In turn, these types of decoupled components can make it easier to build
 deployment pipelines and provide a platform for easier and more robust testing.
