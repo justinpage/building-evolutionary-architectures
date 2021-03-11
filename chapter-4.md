@@ -181,7 +181,7 @@ Some characteristics include:
 	- Embrace automation for tests
 - Highly decentralized
 	- Share nothing architecture - decrease coupling
-	- if one service goes down or changes, doesn't affect the whole system
+	- If one service goes down or changes, doesn't affect the whole system
 - Deployed independently
 	- Can update and change components without affecting the entire system
 - Isolate failure

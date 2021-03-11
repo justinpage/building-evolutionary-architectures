@@ -114,9 +114,9 @@ Always evaluate the associate cost when it comes to supporting the following:
 - Permanent feature toggles
 - Product-driven customization
 
-The caricature of sales people has them selling any requested before its even
-implemented. Evaluate if custom solutions for a customer outweighs the necessary
-burden in developing custom tests and fitness functions.
+The caricature of sales people has them selling any requested feature before its
+even implemented. Evaluate if custom solutions for a customer outweighs the
+necessary burden in developing custom tests and fitness functions.
 
 #### Antipattern: Reporting
 
